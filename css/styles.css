@@ -1,18 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
 }
 html{
     scroll-behavior: smooth;
 }
 body {
     background-color: #242424;
+    
 }
 
-.margen-interno {
-    padding: 0 50px;
-}
 
 
 
@@ -25,11 +23,12 @@ a {
     justify-content: space-between;
     background-color: #242424;
     box-shadow: 2px 2px 1px black;
+    
 }
 
 .logo {
-    padding: 0px 25px;
- 
+    
+ padding: 0px 20px;
 
 }
 
@@ -68,7 +67,7 @@ a {
 .checkbtn {
     font-size: 30px;
     color: white;
-    line-height: 60px;
+    line-height: 70px;
     padding: 0px 20px;
     cursor: pointer;
     display: none;
@@ -95,6 +94,8 @@ a {
     text-align: center;
     height: 700px;
     display: flex;
+    padding: 0px;
+    margin: 0px;
     align-items: center;
 
 }
@@ -229,7 +230,7 @@ a {
 .proyecto2 {
     flex: 1 1 auto;
     padding: 15px;
-    ;
+    
     
 }
 
@@ -378,6 +379,7 @@ a {
     }
     .header{
         height: 70px;
+        
     }
     .enlaces {
         flex-direction: column;
@@ -402,12 +404,13 @@ a {
     }
     .checkbtn{
         display: block;
+       
     }
     .nav-menu_visible{
         left: 0%;
     }
     .divcontentido {
-        font-size: 18px;
+        font-size: 20px;
         padding: 0px 0px;
     }
     
@@ -436,15 +439,42 @@ a {
     }
     
 }
-    @media screen and (max-width: 360px) {
-        
+    @media screen and (max-width: 400px) {
+        .divimg img{
+            width: 100%;
+            
+        }
+        .checkbtn{
+            display: block;
+        }
+
     .divcontentido {
-        font-size: 15px;
+        font-size: 17px;
         padding: 0px 0px;
     }
-    
+
     .divp2 {
         padding: 0px 10px;
+    }
+    .tablaPoryectos {
+        padding: 0px;
+    }
+    
+    .proyecto1 {
+        padding: 10px 0px;
+    }
+    .proyecto2 {
+        padding: 10px 0px;
+        ;
+        
+    }
+    .divproyecto2 {
+     
+        margin-top: 20px;
+       
+    }
+    .divproyecto {
+        margin-top: 20px;  
     }
  
 }
